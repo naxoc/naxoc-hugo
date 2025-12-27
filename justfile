@@ -21,12 +21,9 @@ clean:
     rm -rf public
 
 # Publish to production server
-publish: clean
+publish: clean build-prod
     #!/usr/bin/env bash
     set -euo pipefail
-
-    # Build the site with Hugo
-    hugo --minify
 
     # Add version file to deployment
     echo "Deployed: $(date)
