@@ -3,6 +3,7 @@ title: "naxoc.net is now on Sculpin"
 date: 2015-02-19T16:51:03+0200
 aliases:
   - /2015/02/16/naxoc-net-sculpin/
+  - /2015/02/19/naxoc-net-sculpin/
 comments: true
 tags:
 - sculpin
