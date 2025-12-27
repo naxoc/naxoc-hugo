@@ -2,6 +2,8 @@
 layout: post
 title: "Syntax highlighting commands with Zsh"
 date: 2014-02-02T13:48:19+0100
+aliases:
+  - /2014/02/02/syntax-highlighting-commands-with-zsh/
 comments: true
 tags:
 - cli

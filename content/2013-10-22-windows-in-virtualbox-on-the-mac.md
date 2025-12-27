@@ -1,6 +1,8 @@
 ---
 title: "Windows in VirtualBox on the Mac"
 date: 2013-10-22T21:06:00+01:00
+aliases:
+  - /2013/10/22/windows-in-virtualbox-on-the-mac/
 comments: true
 tags:
 - VMs

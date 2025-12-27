@@ -1,6 +1,8 @@
 ---
 title: "Placeholder selectors in SASS"
 date: 2014-01-28T19:45:00+01:00
+aliases:
+  - /2014/01/28/placeholder-selectors-in-sass/
 comments: true
 tags:
 - SASS

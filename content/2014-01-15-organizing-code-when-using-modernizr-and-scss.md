@@ -1,6 +1,8 @@
 ---
 title: "Organizing code when using Modernizr and SASS"
 date: 2014-01-15T12:45:00+01:00
+aliases:
+  - /2014/01/15/organizing-code-when-using-modernizr-and-scss/
 comments: true
 tags:
 - SASS

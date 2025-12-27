@@ -7,8 +7,7 @@
   {{ if eq .Kind "taxonomy" }}
     <div class="tag-listing">
       {{ range .Pages }}
-        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-        <p>{{ .Date.Format "January 2, 2006" }}</p>
+        <a href="{{ .Permalink }}">{{ .Title }}</a> ({{ len .Pages }})
       {{ end }}
     </div>
   {{ else if eq .Kind "term" }}

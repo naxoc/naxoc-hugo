@@ -1,6 +1,8 @@
 ---
 title: "Keyboard shortcuts in PHPStorm"
 date: 2014-02-08T13:27:35+0100
+aliases:
+  - /2014/02/08/keyboard-shortcuts-in-phpstorm/
 comments: true
 tags:
 - PHPStorm

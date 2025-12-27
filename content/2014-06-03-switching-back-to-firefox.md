@@ -1,6 +1,8 @@
 ---
 title: "Switching back to Firefox"
 date: 2014-06-03T16:38:30+0200
+aliases:
+  - /2014/06/03/switching-back-to-firefox/
 comments: true
 tags:
 - firefox

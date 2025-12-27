@@ -1,6 +1,8 @@
 ---
 title: "Navigate in Twig namespaces in PhpStorm"
 date: 2018-10-17T22:20:00+0200
+aliases:
+  - /2018/10/17/phpstorm-twig-namespaces/
 comments: true
 tags:
 - PHPStorm

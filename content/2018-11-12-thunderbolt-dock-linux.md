@@ -1,6 +1,8 @@
 ---
 title: "Thunderbolt dock and Linux"
 date: 2018-11-12T20:20:00+0200
+aliases:
+  - /2018/11/12/thunderbolt-dock-linux/
 comments: true
 tags:
 - linux

@@ -318,6 +318,10 @@ code {
   font-size: 0.75em;
 }
 
+.menu li {
+  margin-right: 0.5em;
+}
+
 .menu a {
   border-color: #ffffff;
 }

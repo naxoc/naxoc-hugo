@@ -1,6 +1,8 @@
 ---
 title: "Atom editor update problem"
 date: 2014-05-18T20:51:03+0200
+aliases:
+  - /2014/05/18/atom-editor-update-problem/
 comments: true
 tags:
 - atom

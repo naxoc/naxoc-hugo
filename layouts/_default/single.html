@@ -62,7 +62,23 @@
 
   {{ if not (eq .Params.comments false) }}
     <div id="disqus_thread"></div>
-    {{ template "_internal/disqus.html" . }}
+    <script>
+      // Convert new Hugo URL format to old Sculpin format for Disqus
+      // New: /YYYY-MM-DD-slug/  ->  Old: /YYYY/MM/DD/slug/
+      var disqus_config = function () {
+        {{ $datePath := .Date.Format "2006/01/02" }}
+        {{ $slug := replaceRE "^[0-9]{4}-[0-9]{2}-[0-9]{2}-" "" .File.BaseFileName }}
+        // Use http:// to match old Sculpin threads (with double trailing slash!)
+        this.page.url = "http://naxoc.net/{{ $datePath }}/{{ $slug }}//";
+        this.page.identifier = "http://naxoc.net/{{ $datePath }}/{{ $slug }}//";
+      };
+      (function() {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://{{ site.Config.Services.Disqus.Shortname }}.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
   {{ end }}
 </article>
 {{ end }}

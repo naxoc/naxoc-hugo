@@ -1,6 +1,8 @@
 ---
 title: "Going back to a new job"
 date: 2018-09-30T19:20:00+0200
+aliases:
+  - /2018/09/30/going-back-new-job/
 comments: true
 tags:
 - job

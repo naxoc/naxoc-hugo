@@ -1,6 +1,8 @@
 ---
 title: "Switching from Mac to Linux"
 date: 2018-11-11T14:20:00+0200
+aliases:
+  - /2018/11/11/switch-from-mac-to-linux/
 comments: true
 tags:
 - linux

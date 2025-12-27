@@ -13,7 +13,9 @@
             {{ .Date.Format "January 2, 2006" }}
           </time>
           {{ if not (eq .Params.comments false) }}
-            | <a href="{{ .Permalink }}#disqus_thread">Comments</a>
+            {{ $datePath := .Date.Format "2006/01/02" }}
+            {{ $slug := replaceRE "^[0-9]{4}-[0-9]{2}-[0-9]{2}-" "" .File.BaseFileName }}
+            | <a href="{{ .Permalink }}#disqus_thread" data-disqus-identifier="http://naxoc.net/{{ $datePath }}/{{ $slug }}//">Comments</a>
           {{ end }}
         </p>
 

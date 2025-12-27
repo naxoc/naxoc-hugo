@@ -1,6 +1,8 @@
 ---
 title: "Color schemes and productivity"
 date: 2013-11-10T13:45:00+01:00
+aliases:
+  - /2013/11/10/color-schemes-and-productivity/
 comments: true
 tags:
 - PHPStorm

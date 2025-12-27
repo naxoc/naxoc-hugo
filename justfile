@@ -37,6 +37,10 @@ publish: clean build-prod
     # Rsync to server (nuez is configured in .ssh/config)
     rsync -avz --delete public/ nuez:/var/www/naxoc.net/public
 
+    # Fix permissions so nginx can read files
+    ssh nuez "find /var/www/naxoc.net/public -type d -exec chmod 755 {} \;"
+    ssh nuez "find /var/www/naxoc.net/public -type f -exec chmod 644 {} \;"
+
     echo "✨ Site published successfully!"
 
 # Create a new blog post

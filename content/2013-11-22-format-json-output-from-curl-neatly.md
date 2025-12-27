@@ -1,6 +1,8 @@
 ---
 title: "Format json output from cUrl neatly"
 date: 2013-11-22T14:27:00+01:00
+aliases:
+  - /2013/11/22/format-json-output-from-curl-neatly/
 comments: true
 tags:
 - curl

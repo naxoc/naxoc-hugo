@@ -1,6 +1,8 @@
 ---
 title: "Setting up a file watcher for Compass in PHPStorm"
 date: 2013-10-06T20:55:00+01:00
+aliases:
+  - /2013/10/06/setting-up-a-file-watcher-for-compass-in-phpstorm/
 comments: true
 tags:
  - PHPStorm

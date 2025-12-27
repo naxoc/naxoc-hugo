@@ -1,6 +1,8 @@
 ---
 title: "Mexican street art as pixel art"
 date: 2017-11-19T18:20:00+0200
+aliases:
+  - /2017/11/19/mexican-street-art-to-pixel-art/
 comments: true
 tags:
 - javascript

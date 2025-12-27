@@ -1,0 +1,44 @@
+{{ define "title" }}Archive — {{ .Site.Title }}{{ end }}
+
+{{ define "main" }}
+<div class="posts-archive">
+  <h2>{{ .Title }}</h2>
+
+  {{ $paginator := .Paginate (where site.RegularPages "Type" "in" (slice "page" "posts")) }}
+  {{ range $paginator.Pages }}
+    <article class="post">
+      <header>
+        <h3>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </h3>
+        <p>
+          <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+            {{ .Date.Format "January 2, 2006" }}
+          </time>
+        </p>
+      </header>
+    </article>
+  {{ end }}
+
+  {{ if or $paginator.HasPrev $paginator.HasNext }}
+    <nav class="previous-next archive">
+      {{ if $paginator.HasPrev }}
+        <div class="previous">
+          <a href="{{ $paginator.Prev.URL }}">
+            <span class="arrow arrow-west"></span>
+            <span class="title">Newer</span>
+          </a>
+        </div>
+      {{ end }}
+      {{ if $paginator.HasNext }}
+        <div class="next">
+          <a href="{{ $paginator.Next.URL }}">
+            <span class="title">Older</span>
+            <span class="arrow arrow-east"></span>
+          </a>
+        </div>
+      {{ end }}
+    </nav>
+  {{ end }}
+</div>
+{{ end }}

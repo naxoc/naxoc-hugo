@@ -1,6 +1,8 @@
 ---
 title: "Finding unused images in your website code"
 date: 2013-10-28T21:45:00+01:00
+aliases:
+  - /2013/10/28/finding-unused-images-in-your-website-code/
 comments: true
 tags:
 - shell
