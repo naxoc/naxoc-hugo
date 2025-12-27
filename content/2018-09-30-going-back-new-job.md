@@ -1,6 +1,6 @@
 ---
 title: "Going back to a new job"
-date: 2018-09-30 19:20:00 +0200
+date: 2018-09-30T19:20:00+0200
 comments: true
 tags:
 - job

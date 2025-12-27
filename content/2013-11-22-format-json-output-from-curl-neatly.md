@@ -1,6 +1,6 @@
 ---
 title: "Format json output from cUrl neatly"
-date: 2013-11-22 14:27
+date: 2013-11-22T14:27:00+01:00
 comments: true
 tags:
 - curl

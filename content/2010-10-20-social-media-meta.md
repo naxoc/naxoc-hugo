@@ -1,6 +1,6 @@
 ---
 title: "Social media meta"
-date: 2010-10-20 11:33
+date: 2010-10-20T11:33:00+01:00
 tags:
   - facebook
   - meta
@@ -8,7 +8,7 @@ tags:
 
 comments: true
 
-redirect:
+aliases:
   - blog/2010/10/20/social-media-meta/
 ---
 I am doing some integration with facebook these days. I don't use facebook much and I certainly no not want all kinds of test data on my profile so I made a test profile using names that just came to mind :-P

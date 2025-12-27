@@ -1,6 +1,6 @@
 ---
 title: Hide Drupal files with .htaccess
-date: 2009-11-13 23:50
+date: 2009-11-13T23:50:00+01:00
 tags:
   - apache
   - drupal
@@ -8,7 +8,7 @@ tags:
 
 comments: true
 
-redirect:
+aliases:
   - hide-drupal-files-htaccess/
 
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Navigating with Krumo"
-date: 2011-09-14 09:13
+date: 2011-09-14T09:13:00+01:00
 tags:
 - drupal
 - Drupal Planet
@@ -9,7 +9,7 @@ tags:
 
 comments: true
 
-redirect:
+aliases:
 - krumo/
 - blog/2011/09/14/navigating-with-krumo/
 ---

@@ -1,6 +1,6 @@
 ---
 title: Backup and migrate module + Dropbox = peace of mind
-date: 2009-11-16 21:06
+date: 2009-11-16T21:06:00+01:00
 tags:
   - backup
   - drupal
@@ -8,7 +8,7 @@ tags:
 
 comments: true
 
-redirect:
+aliases:
   - blog/2009/11/16/backup-and-migrate-module-plus-dropbox-equals-peace-of-mind/
   - backup-and-migrate-module-dropbox/
 ---

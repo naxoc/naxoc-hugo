@@ -1,6 +1,6 @@
 ---
 title: "Mexican street art as pixel art"
-date: 2017-11-19 18:20:00 +0200
+date: 2017-11-19T18:20:00+0200
 comments: true
 tags:
 - javascript

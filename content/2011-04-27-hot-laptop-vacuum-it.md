@@ -1,7 +1,7 @@
 ---
 title: Hot Laptop? Vacuum it!
 
-date: 2011-04-27 21:48
+date: 2011-04-27T21:48:00+01:00
 
 tags:
   - laptop
@@ -9,7 +9,7 @@ tags:
 
 comments: true
 
-redirect:
+aliases:
 - hot-laptop/
 - blog/2011/04/27/hot-laptop-vacuum-it/
 ---

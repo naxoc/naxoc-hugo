@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Switch between PHP versions with Homebrew"
-date: 2014-05-07 20:25:40 +0200
+date: 2014-05-07T20:25:40+0200
 comments: true
 tags:
 - cli

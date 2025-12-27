@@ -1,6 +1,6 @@
 ---
 title: Upgraded to Drupal 7
-date: 2010-10-18 20:58
+date: 2010-10-18T20:58:00+01:00
 tags:
   - drupal
   - D7
@@ -8,7 +8,7 @@ tags:
 
 comments: true
 
-redirect:
+aliases:
   - upgraded-to-drupal-7/
   - blog/2010/10/18/upgraded-to-drupal-7/
 

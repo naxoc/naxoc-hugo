@@ -1,6 +1,6 @@
 ---
 title: "Atom editor update problem"
-date: 2014-05-18 20:51:03 +0200
+date: 2014-05-18T20:51:03+0200
 comments: true
 tags:
 - atom

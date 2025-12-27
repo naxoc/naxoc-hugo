@@ -1,13 +1,13 @@
 ---
 title: "Pet peeve #1 - the comparison operator"
-date: 2010-12-10 14:27
+date: 2010-12-10T14:27:00+01:00
 tags:
   - pet peeves
   - PHP
   - Drupal Planet
 
 comments: true
-redirect:
+aliases:
   - pet-peeve-1-comparison-operator/
 
 ---

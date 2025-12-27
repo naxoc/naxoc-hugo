@@ -1,13 +1,13 @@
 ---
 title: A git commit hook helps you keep your code clean
-date: 2012-11-26 22:18
+date: 2012-11-26T22:18:00+01:00
 comments: true
 tags:
 - git
 - Drupal Planet
 -  drupal
 
-redirect:
+aliases:
 - blog/2012/11/26/a-git-commit-hook-helps-you-keep-your-code-clean/
 ---
 I like to keep my code free of trailing whitespace. I feel what xjm describes as "[spinach in your teeth](http://xjm.drupalgardens.com/review-guide)" about whitespace and non-conforming coding standards.

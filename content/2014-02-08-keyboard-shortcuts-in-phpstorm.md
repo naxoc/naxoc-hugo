@@ -1,6 +1,6 @@
 ---
 title: "Keyboard shortcuts in PHPStorm"
-date: 2014-02-08 13:27:35 +0100
+date: 2014-02-08T13:27:35+0100
 comments: true
 tags:
 - PHPStorm

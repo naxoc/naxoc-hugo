@@ -1,6 +1,6 @@
 ---
 title: "Switching from Mac to Linux"
-date: 2018-11-11 14:20:00 +0200
+date: 2018-11-11T14:20:00+0200
 comments: true
 tags:
 - linux

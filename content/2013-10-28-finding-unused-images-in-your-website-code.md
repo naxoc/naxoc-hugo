@@ -1,6 +1,6 @@
 ---
 title: "Finding unused images in your website code"
-date: 2013-10-28 21:45
+date: 2013-10-28T21:45:00+01:00
 comments: true
 tags:
 - shell

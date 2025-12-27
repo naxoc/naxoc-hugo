@@ -1,6 +1,6 @@
 ---
 title: "Thunderbolt dock and Linux"
-date: 2018-11-12 20:20:00 +0200
+date: 2018-11-12T20:20:00+0200
 comments: true
 tags:
 - linux

@@ -1,6 +1,6 @@
 ---
 title: "Organizing code when using Modernizr and SASS"
-date: 2014-01-15 12:45
+date: 2014-01-15T12:45:00+01:00
 comments: true
 tags:
 - SASS

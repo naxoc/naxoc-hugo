@@ -1,11 +1,11 @@
 ---
 title: "What's with the weird name?"
-date: 2012-02-05 19:09
+date: 2012-02-05T19:09:00+01:00
 comments: true
 tags:
 - web
 
-redirect:
+aliases:
 - blog/2012/02/05/whats-with-the-weird-name/
 ---
 So, Camilla.. Why is your nick everywhere _naxoc_?.

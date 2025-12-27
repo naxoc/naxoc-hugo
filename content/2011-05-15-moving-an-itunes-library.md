@@ -1,6 +1,6 @@
 ---
 title: "Moving an iTunes Library"
-date: 2011-05-11 15:22
+date: 2011-05-11T15:22:00+01:00
 
 tags:
 - itunes
@@ -8,7 +8,7 @@ tags:
 
 comments: true
 
-redirect:
+aliases:
 - moving-itunes-library/
 - blog/2011/05/11/moving-an-itunes-library/
 ---

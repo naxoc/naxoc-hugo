@@ -1,0 +1,50 @@
+{{ if .IsPage }}
+<!-- Open Graph -->
+<meta property="og:title" content="{{ .Title }}" />
+<meta property="og:description" content="{{ with .Params.excerpt }}{{ . }}{{ else }}{{ .Summary }}{{ end }}" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" />
+{{ with .Params.tags }}
+  {{ range . }}
+<meta property="article:tag" content="{{ . }}" />
+  {{ end }}
+{{ end }}
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@naxoc" />
+<meta name="twitter:title" content="{{ .Title }}" />
+<meta name="twitter:description" content="{{ with .Params.excerpt }}{{ . }}{{ else }}{{ .Summary }}{{ end }}" />
+
+<!-- Canonical -->
+<link rel="canonical" href="{{ .Permalink }}" />
+
+<!-- Schema.org JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@id": "{{ .Permalink }}",
+  "@type": "BlogPosting",
+  "name": "{{ .Title }}",
+  "headline": "{{ .Title }}",
+  "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
+  "description": "{{ with .Params.excerpt }}{{ . }}{{ else }}{{ .Summary }}{{ end }}",
+  "mainEntityOfPage": "True",
+  "url": "{{ .Permalink }}",
+  {{ with .Params.tags }}
+  "keywords": "{{ delimit . ", " }}",
+  {{ end }}
+  "author": {
+    "@type": "Person",
+    "name": "{{ .Site.Params.author_first }} {{ .Site.Params.author_last }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ .Site.Title }}",
+    "url": "{{ .Site.BaseURL }}"
+  }
+}
+</script>
+{{ end }}

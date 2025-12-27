@@ -1,6 +1,6 @@
 ---
 title: "Using specific versions of formula with Homebrew"
-date: 2012-06-05 13:54
+date: 2012-06-05T13:54:00+01:00
 comments: true
 tags:
 - cli
@@ -8,7 +8,7 @@ tags:
 - tools
 - homebrew
 
-redirect:
+aliases:
 - brew-switch/
 - blog/2012/06/05/using-specific-versions-of-formula-with-homebrew/
 ---

@@ -1,3 +1,17 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://naxoc.net/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'naxoc.net'
+disqusShortname = 'naxocnet'
+
+[params]
+  subtitle = 'Liking the holes in chesse since 1975'
+  author_first = 'Camilla'
+  author_last = 'Krag Jensen'
+
+[pagination]
+  pagerSize = 10
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

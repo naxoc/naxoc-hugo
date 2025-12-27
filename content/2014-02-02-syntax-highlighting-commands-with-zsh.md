@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Syntax highlighting commands with Zsh"
-date: 2014-02-02 13:48:19 +0100
+date: 2014-02-02T13:48:19+0100
 comments: true
 tags:
 - cli

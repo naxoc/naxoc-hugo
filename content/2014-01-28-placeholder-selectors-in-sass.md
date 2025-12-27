@@ -1,6 +1,6 @@
 ---
 title: "Placeholder selectors in SASS"
-date: 2014-01-28 19:45
+date: 2014-01-28T19:45:00+01:00
 comments: true
 tags:
 - SASS

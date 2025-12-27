@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /blog/categories/
+
+Sitemap: https://naxoc.net/sitemap.xml

@@ -1,6 +1,6 @@
 ---
 title: "Windows in VirtualBox on the Mac"
-date: 2013-10-22 21:06
+date: 2013-10-22T21:06:00+01:00
 comments: true
 tags:
 - VMs

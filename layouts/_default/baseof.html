@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ block "title" . }}{{ .Title }} — {{ .Site.Title }}{{ end }}</title>
+  <meta name="generator" content="Hugo {{ hugo.Version }}" />
+
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+
+  <link href="/css/style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/paraiso-dark.min.css">
+
+  <script data-goatcounter="https://naxoc.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+  {{ partial "social-meta.html" . }}
+  {{ block "head_meta" . }}{{ end }}
+</head>
+<body>
+  <aside class="sidebar">
+    <header>
+      <h1>
+        <a href="/">{{ .Site.Title }}</a>
+      </h1>
+      <p>{{ .Site.Params.subtitle }}</p>
+    </header>
+
+    <nav>
+      <ul class="menu inline-list">
+        <li><a class="button-link" href="/tags">Archive</a></li>
+        <li><a class="button-link" href="/tags">Tags</a></li>
+        <li><a class="button-link" href="/about">About</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <main role="main">
+    <section class="content-main">
+      {{ block "main" . }}{{ end }}
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-links">
+      <ul class="inline-list">
+        <li><a class="button-link" href="/index.xml">Feed</a></li>
+        <li><a class="button-link" href="https://github.com/naxoc" rel="me">GitHub</a></li>
+      </ul>
+      <div class="powered-by">
+        <p>Powered by <a href="https://gohugo.io">Hugo</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
+
+  {{ with site.Config.Services.Disqus.Shortname }}
+    <script id="dsq-count-scr" src="//{{ . }}.disqus.com/count.js" async></script>
+  {{ end }}
+</body>
+</html>
