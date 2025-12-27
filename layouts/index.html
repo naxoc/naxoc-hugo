@@ -13,7 +13,7 @@
             {{ .Date.Format "January 2, 2006" }}
           </time>
           {{ if not (eq .Params.comments false) }}
-            | <a href="{{ .Permalink }}#disqus_thread" data-disqus-identifier="{{ .Permalink }}">Comments</a>
+            | <a href="{{ .Permalink }}#disqus_thread">Comments</a>
           {{ end }}
         </p>
 

@@ -25,6 +25,9 @@ publish: clean build-prod
     #!/usr/bin/env bash
     set -euo pipefail
 
+    # Copy RSS feed to atom.xml for backwards compatibility
+    cp public/index.xml public/atom.xml
+
     # Add version file to deployment
     echo "Deployed: $(date)
     $(git log -1 --pretty=format:'%s (%ci)' --abbrev-commit)
