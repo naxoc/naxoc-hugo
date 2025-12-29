@@ -9,6 +9,7 @@ tags:
 
 aliases:
 - blog/2012/11/26/a-git-commit-hook-helps-you-keep-your-code-clean/
+- 2012/11/26/a-git-commit-hook-helps-you-keep-your-code-clean/
 ---
 I like to keep my code free of trailing whitespace. I feel what xjm describes as "[spinach in your teeth](http://xjm.drupalgardens.com/review-guide)" about whitespace and non-conforming coding standards.
 
